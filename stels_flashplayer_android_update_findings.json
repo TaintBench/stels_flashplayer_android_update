@@ -86,7 +86,8 @@
         "collections": true
       },
       "ID": 1,
-      "description": "This malicious flow reads contacts and send them to a remote server via HTTP Post request."
+      "description": "This malicious flow reads contacts and send them to a remote server via HTTP Post request.",
+      "isNegative": false
     },
     {
       "source": {
@@ -153,7 +154,8 @@
         "staticField": true
       },
       "ID": 2,
-      "description": "This malicious flow reads device's IMSI number and stores it to the public field of class Settings. The IMSI number is sent a remote server via a HTTP POST request."
+      "description": "This malicious flow reads device's IMSI number and stores it to the public field of class Settings. The IMSI number is sent a remote server via a HTTP POST request.",
+      "isNegative": false
     },
     {
       "source": {
@@ -212,7 +214,8 @@
         "nonStaticField": true
       },
       "ID": 3,
-      "description": "This malicious leaks information about installed apks on the victim's device to a remote server."
+      "description": "This malicious leaks information about installed apks on the victim's device to a remote server.",
+      "isNegative": false
     }
   ]
 }
